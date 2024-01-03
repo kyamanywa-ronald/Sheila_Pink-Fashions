@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+#Topnavbar {
+    background-color:#b61221;
+    color: rgb(88, 17, 17);
+    display:flex;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    transition: .3s linear;
+}
+
+#Topnavbar a{
+    padding: 10px 10px; 
+    justify-content: center;
+}
+
+#logo {
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    padding: 10px 10px; 
+    display:flex;
+    justify-content: center;
+    background-color:rgba(206, 177, 177, 0.966);
+}
+
+.button {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left : 68%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button input{
+    padding: 4px 20px;
+    border: 2px solid #b61221;
+}
+
+.button button{
+   border:none;
+   border-radius: 10px;
+   margin: 0px 10px;
+   outline:none;
+   padding:5px 10px;
+   background-color:rgb(255, 240, 254); 
+   color: #b61221;
+   transition: 4s linear;
+   cursor: pointer;
+}
+
+.button button:hover{
+    color: #b61221;
+    background-color: white;
+    border: 2px solid #b61221 ;
+}
+.button .fa-solid{
+    margin-left: -30px;
+    cursor: pointer;
+}    
+.nav ul{
+    width: 100%;
+    height: 50px;
+    background-color: #b61221;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+.nav ul li{
+    list-style: none;
+    width: auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.nav ul li.active{
+    text-decoration: underline;
+    color: black;
+}
+
+.nav ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+#firstheading{
+    text-align: center;
+    color: #b6126c;
+    margin: 10px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.first , .second{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: 5%;
+}
+
+.first img , .second img{
+    width: 100%;
+    height:500px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+footer section{
+    width: 30%;
+    padding: 20px 10px;
+    margin-left: 3%;
+    display: block;
+}
+
+footer section ol li{
+    list-style: none;
+    margin: 6px 0px;
+}
+
+footer section p{
+    padding: 10px 0px;
+}
+
+#allrights{
+    text-align: center;
+    color: #110f0f;
+}
